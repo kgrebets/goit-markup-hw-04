@@ -38,6 +38,10 @@ img {
     padding: 0 15px 0 15px;
 }
 
+p {
+    margin: 0;
+}
+
 /********************************/
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -354,6 +358,10 @@ img {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.portfolio-item:hover .portfolio-item-image-overlay {
+    transform: translateY(0%);
+}
+
 .portfolio-item-image-container {
     position: relative;
     overflow: hidden;
@@ -378,7 +386,6 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-
 }
 
 .portfolio-item-header {
@@ -395,7 +402,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transform: translateY(0%);
 }
 
 /********************************/
